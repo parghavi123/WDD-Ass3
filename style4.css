@@ -1,0 +1,17 @@
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    padding: 1rem;
+}
+.box a{     
+    text-decoration: underline;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.box a:hover{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
